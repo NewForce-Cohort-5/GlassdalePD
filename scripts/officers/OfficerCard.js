@@ -1,11 +1,9 @@
 export const Officer = (Object) => {
     return `
-        <section>
-        <div class="col">
+        <div class="col-md-4">
         <ul>
-        <li>${Object.name}</li>
+        <li class="list-group-item">${Object.name}</li>
         </ul>
         </div>
-        </section>
     `
 }

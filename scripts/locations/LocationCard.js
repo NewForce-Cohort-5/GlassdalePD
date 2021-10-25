@@ -2,12 +2,10 @@
 
 export const Location = (Object) => {
     return `
-        <section>
-        <div class="col">
+        <div class="col-md-4">
         <ul>
-        <li>${Object.facilityName}</li>
+        <li class="list-group-item">${Object.facilityName}</li>
         </ul>
         </div>
-        </section>
     `
 }

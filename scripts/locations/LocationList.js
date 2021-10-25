@@ -1,7 +1,7 @@
 import { Location } from "./LocationCard.js";
 import { useLocations, getLocations } from "./LocationProvider.js";
 
-const contentTarget = document.querySelector(".location-list")
+const contentTarget = document.querySelector(".print-list")
 
 export const LocationList = () => {
   getLocations()
@@ -17,7 +17,15 @@ export const LocationList = () => {
 
     });
 
-    contentTarget.innerHTML = locationHTML
+    contentTarget.innerHTML =    
+    `
+    <h2>Facilities</h2>
+    ${locationHTML}
+    `
 
   });
 };
+
+document.querySelector("#facilities-nav-link").addEventListener("click", () => {
+  LocationList()
+})

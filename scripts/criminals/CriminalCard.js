@@ -5,7 +5,7 @@
 
 export const Criminal = (Object) => {
     return `
-        <div class="col-md-4">
+        <div class="col-sm-3 border border-dark m-3 list-group-item">
         <h3>${Object.name}</h3>
         <p>Age: ${Object.age}</p>
         <p>Crime: ${Object.conviction}</p>

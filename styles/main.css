@@ -7,6 +7,7 @@ button,
 input,
 select,
 textarea {
+	background-color: aliceblue;
 	color: #404040;
 	font-family: "Comfortaa", Arial, sans-serif;
 	font-size: 14px;
@@ -16,4 +17,10 @@ textarea {
 h1,h2,h3,h4,h5,h6 {
   font-family: "Patua One", serif;
   letter-spacing: 2px;
+}
+
+.font {
+	font-family: monospace;
+	font-size: 1.5em;
+	font-weight: bolder;
 }

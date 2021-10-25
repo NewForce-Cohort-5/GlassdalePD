@@ -1,7 +1,7 @@
 import { Officer } from "./OfficerCard.js";
 import { getOfficers, useOfficers } from "./OfficerProvider.js";
 
-const contentTarget = document.querySelector(".officer-list")
+const contentTarget = document.querySelector(".print-list")
 
 export const OfficerList = () => {
   getOfficers()
@@ -17,7 +17,14 @@ export const OfficerList = () => {
 
     });
 
-    contentTarget.innerHTML = officerHTML
+    contentTarget.innerHTML = `
+    <h2>Officers</h2>
+    ${officerHTML}
+    `
 
   });
 };
+
+document.querySelector("#officers-nav-link").addEventListener("click", () => {
+  OfficerList()
+})
