@@ -32,10 +32,12 @@ document.querySelector("body").addEventListener("click", clickEvent => {
 //Put some input fields and prompts here
 export const NoteForm = () => {
     return `
-        <input type="text" id="note-text" placeholder="Note goes here">
-        <input type="date" id="date-text">
-        <input type="text" id="suspect-text" placeholder="Suspect Name goes here">
+    <div class="col-sm-3 border border-dark m-3 list-group-item">
+        <input class="form-control" type="textarea" id="note-text" placeholder="Note goes here">
+        <input class="form-control" type="date" id="date-text">
+        <input class="form-control" type="text" id="suspect-text" placeholder="Suspect Name goes here">
         <button id="saveNote">Save Note</button>
+        </div>
     `
 }
 
