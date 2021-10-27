@@ -1,7 +1,7 @@
 import { saveNote } from "./NoteProvider.js"
 import { NoteList } from "./NoteList.js"
 
-const contentTarget = document.querySelector(".note-form")
+const contentTarget = document.querySelector(".print-list")
 
 // Handle browser-generated click event in component
 document.querySelector("body").addEventListener("click", clickEvent => {
@@ -31,7 +31,7 @@ document.querySelector("body").addEventListener("click", clickEvent => {
 
 //Put some input fields and prompts here
 export const NoteForm = () => {
-    contentTarget.innerHTML = `
+    return `
         <input type="text" id="note-text" placeholder="Note goes here">
         <input type="date" id="date-text">
         <input type="text" id="suspect-text" placeholder="Suspect Name goes here">
