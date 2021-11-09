@@ -9,7 +9,7 @@ export const getCriminals = () => {
         .then(dirtyCriminals => dirtyCriminals.json())
         .then(
             cleanCriminals => {
-                console.table(cleanCriminals)
+                // console.table(cleanCriminals)
                 criminalsArray = cleanCriminals
             }
         )

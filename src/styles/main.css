@@ -24,3 +24,9 @@ h1,h2,h3,h4,h5,h6 {
 	font-size: 1.5em;
 	font-weight: bolder;
 }
+
+.goat-mode {
+	background-image: url("imgs/Ram.jpg");
+	background-repeat: repeat;
+	background-size: cover;
+}

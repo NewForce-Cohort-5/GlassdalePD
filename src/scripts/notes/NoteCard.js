@@ -9,6 +9,8 @@ export const Note = (Object) => {
         <h3>Suspect: ${Object.suspect}</h3>
         <p>Note Text: ${Object.noteText}</p>
         <p>Date: ${new Date(Object.dateOfNote).toLocaleDateString('en-US')}</p>
+        <button id="deleteNote-${Object.id}">Delete</button>
+        <button id="editNote-${Object.id}>Edit</button>
         </div>
     `
 }
