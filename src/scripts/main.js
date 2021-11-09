@@ -9,3 +9,13 @@ import { GoatList } from "./goats/GoatList.js"
 // CriminalList()
 // LocationList()
 // NoteForm()
+
+const goatModeButton = document.querySelector("#goat-nav-link")
+
+goatModeButton.addEventListener("click", function(){
+    // Select the entire body tag
+    const bodyElement = document.querySelector("body")
+  
+    // Add a class
+    bodyElement.classList.toggle("goat-mode")
+  })

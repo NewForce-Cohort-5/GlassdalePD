@@ -25,6 +25,8 @@ h1,h2,h3,h4,h5,h6 {
 	font-weight: bolder;
 }
 
-#goat-mode-nav {
-	background-image: "imgs/Ram.jpg";
+.goat-mode {
+	background-image: url("imgs/Ram.jpg");
+	background-repeat: repeat;
+	background-size: cover;
 }

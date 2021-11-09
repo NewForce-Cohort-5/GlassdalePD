@@ -1,5 +1,5 @@
 import { useGoats } from "./GoatProvider.js"
-import { Goat, GoatMode } from "./GoatCard.js"
+import { Goat } from "./GoatCard.js"
 
 const contentTarget = document.querySelector(".print-list")
   
