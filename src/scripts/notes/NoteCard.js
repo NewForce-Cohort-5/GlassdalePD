@@ -5,13 +5,13 @@
 import { NoteEditForm } from "./NoteEditForm.js"
 
 
-export const Note = (Object) => {
+export const Note = (note, criminal) => {
     return `
-        <div class="col-sm-3 border border-dark m-3 list-group-item">
-        <h3>Suspect: ${Object.suspect}</h3>
-        <p>Note Text: ${Object.noteText}</p>
-        <p>Date: ${new Date(Object.dateOfNote).toLocaleDateString('en-US')}</p>
-        <button id="edit--${Object.id}">Edit</button>
+        <div id="card--${note.id}" class="col-sm-3 border border-dark m-3 list-group-item w-75">
+        <h3>Suspect: ${criminal.name}</h3>
+        <p>Note Text: ${note.noteText}</p>
+        <p>Date: ${new Date(note.dateOfNote).toLocaleDateString('en-US')}</p>
+        <button id="edit--${note.id}">Edit</button>
 
         </div>
 

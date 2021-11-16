@@ -3,122 +3,32 @@
     {
       "id": 1,
       "noteText": "Este was a friend of mine",
-      "suspect": "Este's husband def did it",
-      "dateOfNote": "2021-11-11"
+      "dateOfNote": "2021-11-11",
+      "criminalId": 1
     },
     {
       "id": 2,
       "noteText": "We meet up every Tuesday night for dinner and a glass of wine",
-      "suspect": "Este's husband's Mistress",
-      "dateOfNote": "2021-11-16"
+      "dateOfNote": "2021-11-16",
+      "criminalId": 2
     },
     {
       "id": 3,
       "noteText": "Este's been losing sleep",
-      "suspect": "The Mistress",
-      "dateOfNote": "2021-11-27"
+      "dateOfNote": "2021-11-27",
+      "criminalId": 3
     },
     {
       "id": 4,
-      "noteText": "Her husband's acting different and it smells like infidelity",
-      "suspect": "The husband",
-      "dateOfNote": "2021-11-21"
+      "noteText": "will this work",
+      "criminalId": 22,
+      "dateOfNote": "2021-11-16"
     },
     {
       "id": 5,
-      "noteText": "She says, 'That ain't my merlot on his mouth'",
-      "suspect": "Tay",
-      "dateOfNote": "2021-12-21"
-    },
-    {
-      "id": 6,
-      "noteText": "'That ain't my jewelry on our joint account'",
-      "suspect": "Harry",
-      "dateOfNote": "2021-11-21"
-    },
-    {
-      "noteText": "No, there ain't no doubt",
-      "dateOfNote": "2021-10-26",
-      "suspect": "Tommy Spurlock",
-      "id": 7
-    },
-    {
-      "noteText": "I think I'm gonna call him out",
-      "dateOfNote": "2021-10-26",
-      "suspect": "Aki Endo",
-      "id": 8
-    },
-    {
-      "noteText": "She says I think he did it but I just can't prove it",
-      "dateOfNote": "2021-10-27",
-      "suspect": "Andy Birt",
-      "id": 9
-    },
-    {
-      "noteText": "I think he did I just can't prove it",
-      "dateOfNote": "2021-10-26",
-      "suspect": "Haim",
-      "id": 10
-    },
-    {
-      "noteText": "I think he did but I just can't prove it",
-      "dateOfNote": "2021-10-28",
-      "suspect": "Steven Powers",
-      "id": 11
-    },
-    {
-      "id": 12,
-      "noteText": "No, No body, no crime",
-      "suspect": "Nima ShahabShahmir",
-      "dateOfNote": "2022-02-10"
-    },
-    {
-      "noteText": "",
-      "dateOfNote": "",
-      "suspect": "",
-      "id": 13
-    },
-    {
-      "noteText": "I just can't prove it",
-      "dateOfNote": "2021-10-28",
-      "suspect": "Brandi Dimitroff",
-      "id": 14
-    },
-    {
-      "noteText": "I just can't prove it",
-      "dateOfNote": "2021-10-27",
-      "suspect": "MelQuan Green",
-      "id": 15
-    },
-    {
-      "noteText": "I just can't prove it",
-      "dateOfNote": "2021-10-27",
-      "suspect": "Amanda Ball",
-      "id": 16
-    },
-    {
-      "noteText": "",
-      "dateOfNote": "",
-      "suspect": "",
-      "id": 17
-    },
-    {
-      "noteText": "\"Ayeeeeee'",
-      "dateOfNote": "2021-11-09",
-      "suspect": "The Fonz",
-      "id": 18
-    },
-    {
-      "id": 19,
-      "noteText": "This is wrong",
-      "suspect": "Tommy",
-      "dateOfNote": "2021-11-13"
-    },
-    {
-      "id": 20,
-      "noteText": "put actual words ",
-      "suspect": "Earl ",
-      "dateOfNote": "2021-04-07"
+      "noteText": "She may innocent... or not ",
+      "criminalId": 15,
+      "dateOfNote": "2021-11-17"
     }
   ]
 }
